@@ -1,0 +1,106 @@
+# 🛒 Walmart Sales Forecasting using Time Series Analysis
+
+![Python](https://img.shields.io/badge/Python-3.8-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-yellow?logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical-blue?logo=numpy)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange?logo=plotly)
+![Statsmodels](https://img.shields.io/badge/Statsmodels-Time%20Series-green)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+
+---
+
+## 📌 Overview
+
+This project focuses on analyzing and forecasting Walmart’s weekly sales using **Time Series techniques (ARIMA & SARIMA)**.
+It helps in understanding **sales trends, seasonality**, and predicting future demand to support **inventory planning**.
+
+---
+
+## 📂 Dataset
+
+The dataset contains **6,000+ records** with the following features:
+
+* 🏬 Store ID
+* 📅 Date
+* 💰 Weekly Sales
+* 🌡 Temperature
+* ⛽ Fuel Price
+* 📊 CPI (Consumer Price Index)
+* 📉 Unemployment Rate
+
+---
+
+## ⚙️ Workflow
+
+1. 📥 Data Loading & Preprocessing
+2. 🔍 Exploratory Data Analysis (EDA)
+3. 📆 Time Series Transformation
+4. 📊 Seasonal Decomposition (Trend, Seasonality, Residual)
+5. 🤖 Model Building using **ARIMA & SARIMA**
+6. 📈 Forecasting Future Sales (12 Weeks)
+7. 📏 Model Evaluation (MSE, RMSE)
+
+---
+
+## 📊 Visualizations
+
+### 📈 Weekly Sales Trend
+
+![Sales Trend](images/sales_trend.png)
+
+
+### 🔮 Forecast vs Actual
+
+![Forecast](images/forecast.png)
+
+---
+
+## 🚀 Results
+
+* Identified **clear seasonal patterns** in sales
+* Compared performance across stores
+* Achieved reliable forecasting using **SARIMA**
+* Generated **12-week future sales predictions**
+* Enabled better **data-driven inventory decisions**
+
+---
+
+## 🛠 Tech Stack
+
+* Python
+* Pandas, NumPy
+* Matplotlib
+* Statsmodels
+* Time Series Analysis
+
+---
+
+## 📌 Key Learnings
+
+* Handling time-series data using datetime indexing
+* Understanding trend & seasonality in real-world datasets
+* Building and evaluating ARIMA/SARIMA models
+* Interpreting forecasting results with confidence intervals
+
+---
+
+## 🔮 Future Improvements
+
+* Implement **Facebook Prophet / LSTM** for better accuracy
+* Hyperparameter tuning for optimized models
+* Include external factors like **holidays & promotions**
+
+---
+
+## ⭐ Show Your Support
+
+If you found this project useful, give it a ⭐ on GitHub!
+
+---
+
+## 🔗 Connect with Me
+
+* LinkedIn: *(https://www.linkedin.com/in/lalitha-baratam08/)*
+* GitHub: *(https://github.com/baratamlalitha/)*
+
+---
